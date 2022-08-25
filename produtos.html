@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Studio Hair</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		
+		<style>
+			.whatsapp-link {
+				position: fixed;
+				width: 60px;
+				height: 60px;
+				bottom: 40px;
+				right: 40px;
+				background-color: #25d366;
+				color: #fff;
+				border-radius: 50px;
+				text-align: center;
+				font-size: 30px;
+				box-shadow: 1px 1px 2px #888;
+				z-index: 1000;
+			}
+	 
+			.fa-whatsapp {
+				margin-top: 16px;
+			}
+		</style>
+
+		<style>
+			th{
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			}
+
+			h2{
+				color: #1C1C1C;
+				text-align: center;
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				font-size: larger;
+				font-size: 30px;
+			}
+
+			table{
+				background-image: url(img/wallpaper.jpg); 
+				background-size: contain;
+			}
+
+			.logo{
+				height: "100%";
+				width: "100%";
+				text-align: center;
+				position:relative;
+			}
+
+			.botao{
+				border-radius: 15px;
+				font-family:arial;
+				font-size: 14px;
+				text-transform: uppercase;
+				font-weight: 700;
+				border: none;
+				padding: 10px;
+				cursor: pointer;
+				display: inline-block;
+				text-decoration: none;
+			}
+
+			.botao-grey11{
+				background:#363636;
+				color: #fff;
+				box-shadow:0 5px 0  #1C1C1C;
+			}
+			.botao-grey11:hover{
+				background:#1C1C1C;
+				color: #fff;
+				box-shadow:0 5px 0  #1C1C1C;
+			}
+			.botao-grey11:active{
+				position: relative;
+				top: 5px;
+				box-shadow:none;
+			}
+
+			ul{
+				list-style: none;
+			}
+			li{
+				text-align: center;
+				width: 210px;
+				height: 50px;
+				background-color: #1C1C1C;
+				border-style: solid;
+				border-color: #EEE8AA;
+				border-radius:20PX;
+				display: inline;
+				margin-right: 5px;
+				margin-left: 5px;
+			}
+
+			iframe{
+				text-align: center;
+				width: 100%;
+			}
+			h3{
+				color: #1C1C1C;
+				text-align: center;
+				font-family:arial;
+				font-size: 20px;
+				text-transform: uppercase;
+			}
+
+			div.img {
+				margin: 13px;
+				float: right;
+				width: 180px;
+				transition: all .5s;
+			}
+			div.img:hover {
+				border: none;
+				-webkit-transform: scale(2);
+				-ms-transform: scale(2);
+				transform: scale(2);
+			}
+			div.img img {
+				width: 100%;
+				height: auto;
+				border-radius: 30%;
+			}
+			div.desc {
+				padding: 15px;
+				text-align: center;
+				background-color: #fcf9de;
+				border-radius: 20%;
+			}
+
+			div.imgGal {
+				border: 1px solid #1C1C1C;
+				margin: 1px;
+				width: 180px;
+				float:left;
+				transition: all .5s;
+			}
+			div.imgGal:hover {
+				border: 1px solid #1C1C1C;
+				-webkit-transform: scale(1.8);
+				-ms-transform: scale(1.8);
+				transform: scale(1.8);
+			}
+			div.imgGal img {
+				width: 100%;
+				height: auto;
+			}
+
+			div.vid{
+				float: right;
+				padding: auto;
+			}
+			div.vide{
+				float: left;
+				padding: auto;
+			}
+		</style>
+	</head>
+	<body>
+<!--WHATSAPP FLUTUANTE-->
+		<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5561992256734" target="_blank">
+			<i class="fa fa-whatsapp"></i>
+		</a>
+<!--LOGO CABEÇALHO-->
+		<table width=100% cellpadding=15>
+			<tr height=305>
+				<td colspan="4" background="img/logo.jpg" class="logo"></td>
+			</tr>
+
+<!--BOTÕES DO MAPA DO SITE-->
+			<tr height=50>
+				<th><a href="index.html"button class="botao botao-grey11">PÁGINA INICIAL</a></th>
+				<th><a href="https://web.whatsapp.com/send?phone=5561992256734" button class="botao botao-grey11">AGENDAMENTO</a></th>
+				<th><a href="produtos.html" class="botao botao-grey11">PRODUTOS E SERVIÇOS</a></th>
+				<th><a href="produtos.html" class="botao botao-grey11">PACOTES</a></th>	
+			</tr>
+
+<!--BLOCO DE IMAGENS GALERIA-->			
+			<tr>
+				<td style="text-align:right;">
+					<div class="vid">
+						<embed src="vid/lisoExagerado.mp4" autostart="false" height="380" width="180" />
+						<embed src="vid/lisoSlow.mp4" autostart="false" height="380" width="180" />
+					</div>
+				</td>
+
+				<td colspan="2" style="text-align: center;">
+					<h2><strong>Conheça o nosso trabalho</strong></h2>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/processoPlatina.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/processoliso.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/processoPlatinaLongo.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/processoTintura.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/processoTransformacao.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/processoRealinhamento.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/platinado.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/processoTransformacao2.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/lisoLongo.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/lisoMedio.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/tranca.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+					<div class="imgGal">
+						<a target="_blank">
+							<img src="img/cabelo/tintura.jpg" alt="Cabelo" width="200" height="200">
+						</a>
+					</div>
+				</td>
+
+				<td style="text-align:left;">
+					<div class="vide">
+						<embed src="vid/lisoPerfeito2.mp4" autostart="false" height="380" width="180" />
+						<embed src="vid/lisoLongo.mp4" autostart="false" height="380" width="180" />
+					</div>
+				</td>
+			</tr>
+
+<!--BLOCO DE IMAGENS DE PROMOCAO-->
+			<tr style="text-align: center;">
+				<td colspan="4">
+					<h2 style="text-align: center;">Confira nossos pacotes promocionais</h2>
+					<div class="img">
+						<a target="_blank">
+							<img src="img/promo/PromoLisodosSonhos.jpeg" alt="Promocao" width="300" height="200">
+						</a>
+					<div class="desc">Promoção de Semi Definitiva <br> <a href="https://web.whatsapp.com/send?phone=5561992256734">Clique aqui</a> e agende seu horário.</div>
+					</div>
+				
+					<div class="img">
+						<a target="_blank">
+						<img src="img/promo/PromoLuzes.jpeg" alt="Promocao" width="300" height="200">
+						</a>
+						<div class="desc">Promoção de Luzes <br> <a href="https://web.whatsapp.com/send?phone=5561992256734">Clique aqui</a> e agende seu horário.</div>
+					</div>
+				
+					<div class="img">
+						<a target="_blank">
+						<img src="img/promo/PromoSelagem.jpeg" alt="Promocao" width="300" height="200">
+						</a>
+						<div class="desc">Promoção de Selagem Térmica <br> <a href="https://web.whatsapp.com/send?phone=5561992256734">Clique aqui</a> e agende seu horário.</div>
+					</div>
+				
+					<div class="img">
+						<a target="_blank">
+						<img src="img/promo/PromoLipoplastia.jpeg" alt="Promocao" width="300" height="200">
+						</a>
+						<div class="desc">Promoção de Lipoplastia Capilar <br> <a href="https://web.whatsapp.com/send?phone=5561992256734">Clique aqui</a> e agende seu horário.</div>
+					</div>
+
+					<div class="img">
+						<a target="_blank">
+						<img src="img/promo/PromoHidratacao.jpeg" alt="Promocao" width="300" height="200">
+						</a>
+						<div class="desc">Promoção de Hidratação <br> <a href="https://web.whatsapp.com/send?phone=5561992256734">Clique aqui</a> e agende seu horário.</div>
+					</div>
+
+					<div class="img">
+						<a target="_blank">
+						<img src="img/promo/PromoBotox.jpeg" alt="Promocao" width="300" height="200">
+						</a>
+						<div class="desc">Promoção de Botox Capilar <br> <a href="https://web.whatsapp.com/send?phone=5561992256734">Clique aqui</a> e agende seu horário.</div>
+					</div>
+				</td>
+			</tr>
+
+<!--GOGLE MAPA-->
+			<tr height=50>
+				<td colspan="4">
+					<H3>Venha nos visitar!</H3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d678.450308256712!2d-48.0764570818335!3d-15.862140783457455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a32aa6a9cdaff%3A0xbd6db44a5b1b449!2sFei%20Center!5e0!3m2!1spt-BR!2sbr!4v1632707681091!5m2!1spt-BR!2sbr" width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</td>
+
+<!--LISTA DE MIDIA-->
+
+			</tr>
+<!--RODAPÉ-->
+			<footer height=50>
+				<th style="background-color: #1C1C1C; color: #fff;" colspan="4" >
+						<H4>CONTATO</H4>
+						 <ul>
+							<div class="licont">
+								<li><a href="tel:+55061983821610"><img src="img/telefone.png"style width=150;/> </a></li>
+								<li> <a href="mailto:valdeildocardososantos@gmail.com"><img src="img/email.png"style width=200;/></a></li>
+								<li><a href="https://www.instagram.com/valdeidocardoso/"><img src="img/insta.png"style width=150;/></a></li>
+								<li><a href="https://m.facebook.com/valdeildo.cardoso?locale2=pt_BR"><img src="img/facebook.png"style width=150;/></a></li>
+								<li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d678.450308256712!2d-48.0764570818335!3d-15.862140783457455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a32aa6a9cdaff%3A0xbd6db44a5b1b449!2sFei%20Center!5e0!3m2!1spt-BR!2sbr!4v1632707681091!5m2!1spt-BR!2sbr"><img src="img/local.png"style width=150;/></a></li>
+							</div>
+						</ul>
+					<p>&copy 2021 Studio Hair Todos os direitos reservados</p></th>
+			</footer>
+		</table>
+	</body>
+</html>
