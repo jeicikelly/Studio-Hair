@@ -14,12 +14,12 @@
 body, html{
     height: 100vh;
     width: 100vw;
-    background: #fff;
+    background: #1c1c1c;
     margin: auto;
   }
 
   main{
-    background: #fff url(img/paper.jpg) repeat;
+    background: #1c1c1c url(img/paper.jpg) repeat;
   }
 .whatsapp-link {
     position: fixed;
@@ -97,24 +97,30 @@ a{
 /*SOBRE A EMPRESA*/
 section#sobre{
     display: block;
-    width: 768px;
-    height: 380px;
+    width: 85vw;
+    height: 360px;
     background-color: #EEE8AA;
-
+    margin: auto;
 }
 
 section#sobre > div#imagem{
-   display: block;
+   display: flex;
+   align-items: end;
    background: #EEE8AA url(../img/salao.jpg) no-repeat;
    background-size:cover;
    background-position: center;
    height: 200px;
 }
+section#sobre > div#imagem > h2{
+    background-color: #eee8aa56;
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+}
 
 section#sobre > div#about{
-    margin: 13px;
     text-align: justify;
-    background-color: #1c1c1c;
+    padding: 10px;
 }
 
 /*MAPA*/
