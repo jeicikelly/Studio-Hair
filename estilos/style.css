@@ -3,6 +3,7 @@
 /* 
 #363636
 #1C1C1C
+#daa520
 */
 
 *{
@@ -14,12 +15,12 @@
 body, html{
     height: 100vh;
     width: 100vw;
-    background: #1c1c1c;
+    background: #fff;
     margin: auto;
   }
 
   main{
-    background: #1c1c1c url(img/paper.jpg) repeat;
+    background: #fff url(img/paper.jpg) repeat;
   }
 .whatsapp-link {
     position: fixed;
@@ -44,7 +45,7 @@ div#logo{
     display: block;
     width: 100vw;
     height: 150px;
-    background-image: linear-gradient(to right, #1c1c1c, rgb(255, 255, 1));
+    background-image: linear-gradient(335deg, #ffff86 0, #ffff79 10%, #ffff6d 20%, #fff264 30%, #ffd85b 40%, #f2bd53 50%, #dea34c 60%, #cb8c47 70%, #ba7a43 80%, #ab6a40 90%, #9f5d3e 100%);
     position: relative;
 }
 div > h1{
@@ -99,8 +100,9 @@ section#sobre{
     display: block;
     width: 85vw;
     height: 360px;
-    background-color: #EEE8AA;
+    background-color: #fff;
     margin: auto;
+    border-radius: 20px;
 }
 
 section#sobre > div#imagem{
