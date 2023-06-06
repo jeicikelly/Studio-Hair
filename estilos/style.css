@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* 
+#363636
+#1C1C1C
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+    margin: auto;
+  }
+
+  main{
+    background: #fff url(img/paper.jpg) repeat;
+  }
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+/*BANER DO SITE*/
+div#logo{
+    display: block;
+    width: 100vw;
+    height: 150px;
+    background-image: linear-gradient(to right, #1c1c1c, rgb(248, 248, 125));
+    position: relative;
+}
+div > h1{
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*MENU DE NAVEGAÇAO*/
+#menu{
+    background-color: #888;
+    color: #fff;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#menu:hover{
+    color: black;
+    background-color: #fff;
+}
+nav{
+    display: none;
+}
+.naveg > a{
+    display: block;
+    background-color: #888;
+    color:#fff;
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+}
+.naveg >a:hover{
+    color: black;
+    background-color: #fff;
+}
+
+a{
+    display:inline;
+    text-decoration: none;
+    color: black;
+}
+
+/*SOBRE A EMPRESA*/
+section#sobre{
+    width: 100vw;
+    height: 400px;
+    background-color: #EEE8AA;
+    margin: auto;
+}
+
+section#sobre > div#imagem{
+   display: block;
+   background: #EEE8AA url(../img/salao.jpg) no-repeat;
+   background-size:cover;
+   background-position: center;
+   height: 200px;
+}
+
+section#sobre > div#about{
+    margin: 13px;
+    text-align: justify;
+}
+
+/*MAPA*/
+aside > iframe{
+    width: 99vw;
+    border: 0px;
+}
+
+/*RODAPÉ*/
+footer{
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+}
+#contato{
+    text-align: center;
+}
+
+li, a , img{
+    display: inline;
+}
+img.social{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}

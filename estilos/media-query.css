@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section#sobre{
+        width: 500px;
+        height: 500px;
+        background-color: #888;
+    }
+    .who{
+        display: block;
+        width: 30%;
+        border-radius: 50%;
+        border: ridge 5px #EEE8AA;
+        float: left;
+    }
+    section > div#about{
+        display: block;
+        float: right;
+        width: 65%;
+    }
+}
