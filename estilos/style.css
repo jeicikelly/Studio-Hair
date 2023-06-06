@@ -13,7 +13,7 @@
 }
 
   main{
-    background: #fff url(img/paper.jpg) repeat;
+    background: #fff url(../img/paper.jpg)  repeat;
     margin: 0px;
   }
 
@@ -121,6 +121,20 @@ section#sobre > div#about{
 }
 section#sobre > div#about > p{
     text-align: justify;
+}
+
+/* PORMOÇÕES */
+section#promocao{
+    background-color: #fff;
+}
+
+/* USAR CSS GRIP PRA FICAR TODAS PROMO NUMA LINHA COM ROLAGEM PRA CELULAR */
+section#promocao > div.promo{
+    display: block;
+    color: #fff;
+    background-color: #1c1c1c;
+    width: 200px;
+    height: 250px;
 }
 
 /*MAPA*/
