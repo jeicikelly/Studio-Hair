@@ -44,7 +44,7 @@ div#logo{
     display: block;
     width: 100vw;
     height: 150px;
-    background-image: linear-gradient(to right, #1c1c1c, rgb(248, 248, 125));
+    background-image: linear-gradient(to right, #1c1c1c, rgb(255, 255, 1));
     position: relative;
 }
 div > h1{
@@ -96,10 +96,11 @@ a{
 
 /*SOBRE A EMPRESA*/
 section#sobre{
-    width: 100vw;
-    height: 400px;
+    display: block;
+    width: 768px;
+    height: 380px;
     background-color: #EEE8AA;
-    margin: auto;
+
 }
 
 section#sobre > div#imagem{
@@ -113,6 +114,7 @@ section#sobre > div#imagem{
 section#sobre > div#about{
     margin: 13px;
     text-align: justify;
+    background-color: #1c1c1c;
 }
 
 /*MAPA*/
