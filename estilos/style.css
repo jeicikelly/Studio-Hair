@@ -37,8 +37,6 @@
 
 /*BANER DO SITE*/
 div#logo{
-    margin: 0px;
-    width: 97vw;
     height: 150px;
     background-image: linear-gradient(335deg, #ffff86 0, #ffff79 10%, #ffff6d 20%, #fff264 30%, #ffd85b 40%, #f2bd53 50%, #dea34c 60%, #cb8c47 70%, #ba7a43 80%, #ab6a40 90%, #9f5d3e 100%);
     position: relative;
@@ -117,7 +115,7 @@ section#sobre > div#imagem > h2{
 
 section#sobre > div#about{
     padding: 10px;
-    margin: auto;
+    margin: 5px;
 }
 section#sobre > div#about > p{
     text-align: justify;
